@@ -1,0 +1,119 @@
+body{
+    background-color: bisque;
+}
+.app{
+    margin: 15px 20px;
+    font-family: arial;
+    font-weight: 600;   
+}
+.logo{
+    text-align: center;
+    margin-bottom: 20px;   
+}
+.logo-span{
+    color: orange;
+}
+.logo::after{
+    content: "";
+    display: block;
+    height: 1px;
+    background: #000;
+    margin-left: -500px;
+    margin-right: -500px;
+}
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.main{
+    display: flex;
+}
+.data{
+    max-width: 600px;
+}
+.data-btn{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.choose-expenses{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.choose-expenses-items{
+    max-width: 539px;
+}
+.choose-expenses-items1{
+    margin-bottom: 5px;
+}
+.choose-expenses-items2{
+    margin-bottom: 10px;
+}
+.optionalexpenses{
+    text-align: center;
+}
+.opt{
+    margin-bottom: 10px;
+}
+.expenses-item{
+    width: 260px;
+}
+.count-budget{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.choose-income{
+    width: 500px;
+}
+.choose-income-label{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.checksavings{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.open{
+    text-align: center;
+}
+.start{
+    margin-top: 10px;
+}
+.year-value, .month-value, .day-value{
+    width: 60px;
+}
+.time-data{
+    display: flex;
+    margin-top: 20px;
+}
+.result-table{
+    background-color: #fff;
+    margin: 10px;
+}
+
+.result-table-table{
+    padding: 20px;
+}
+.table{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.cursor{
+    cursor: pointer;
+    background-color: rgb(255, 102, 0);
+    border: none;
+    padding: 6px 10px;
+    border-radius: 3px;
+}
+.cursor:hover{
+    background-color: olive;
+    color: #fff;
+    transition: background 0.5s ease;
+}
+.color{
+    color: green;
+}
+.our{
+    color: rgb(95, 87, 87);
+}
